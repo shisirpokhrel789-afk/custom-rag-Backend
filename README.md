@@ -103,3 +103,5 @@ database/     SQLAlchemy engine and session dependency
 core/         Environment-backed application settings
 workflow.png  End-to-end workflow diagram
 ```
+## Run the app:
+python -m uvicorn main:app --reload
